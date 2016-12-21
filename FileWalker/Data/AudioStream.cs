@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace FileWalker.Data
 {
-    class AudioStream
+    public class AudioStream
     {
-        public String Name { get; set; }
+        public string Name;
+        public string Format;
+        public string Codec;
+        public string Duration;
+        public string BitRateMode;
+        public string BitRate;
+        public string SamplingRate;
+        public string Channels;
+        public string Title;
+        public string Language;
+        public string Bytes;
+        public string Default;
+        public string Forced;
     }
 }

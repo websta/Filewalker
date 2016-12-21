@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace FileWalker.Data
 {
-    class TextStream
+    public class TextStream
     {
-        public String Name { get; set; }
+        public string Title;
+        public string Format;
+        public string Codec;
+        public string Language;
+        public string Default;
+        public string Forced;
+        public string Bytes;
     }
 }
